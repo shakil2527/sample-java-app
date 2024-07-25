@@ -7,7 +7,7 @@ jobs:
     - name: Get code
       uses: actions/checkout@v4.1.7
       with:
-       repository: master
+       repository: sample-java-app
     - name: action-maven
       uses: comchangs/action-maven@v0.4-beta
         
