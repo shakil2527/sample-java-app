@@ -1,0 +1,13 @@
+name: Javaproject
+on: push
+jobs: 
+ tests:
+   runs-on: Ubuntu-latest
+   steps:
+    - name: Get code
+      uses: actions/checkout@v4.1.7
+      with:
+       repository: master
+    - name: action-maven
+      uses: comchangs/action-maven@v0.4-beta
+        
